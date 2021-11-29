@@ -16,17 +16,18 @@
 	<title>Tienda - Inicio</title>
 </head>
 <body>
-
 	<div class="navfloat">
-		<div class="tabsm">
+			
 			<div class="socialt">
-			<p><span class="fas fa-mobile-alt"></span>+56900000 - <i class="fas fa-envelope"></i> beccas.pastry@gmail.com</p>
+				<p><span class="fas fa-mobile-alt"></span>+56900000 - <i class="fas fa-envelope"></i> beccas.pastry@gmail.com</p>
 			</div>
 			<div class="imgsmb">
 				<a href=""><img src="img/wsp.png" class="sm"></a>
+			</div>
+			<div class="imgsmb">
 				<a href="https://www.instagram.com/beccas_pastry/"><img src="img/insta.png" class="sm"></a>
 			</div>
-		</div>
+		
 	</div>
 	<div class="sep"></div>
 	<div class="navcont">
@@ -48,10 +49,12 @@
 		<div class="bloque parallax imagen-1">
 			<div class="cont">
 				<h1>Sección 1</h1>
-				<h4>Mira lo nuevo de la temporada Navidad!</h4>
+				<h4>Mira lo nuevo de la temporada Navidad!</h4><hr>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore maiores consequatur ullam provident necessitatibus officia dolore reprehenderit sequi veritatis, dolores animi magni aperiam harum laboriosam totam, odio recusandae saepe!</p>
 				<div class="sec0">
 					<div class="container-a3">
 						<ul class="caption-style-3">
+						<div class="sec0i"> 
 							<li>
 								<img src="img/img1.png" class="secimg">
 								<div class="caption">
@@ -62,6 +65,8 @@
 										</div>
 									</div>
 							</li>
+						</div>
+						<div class="sec0i">
 							<li>
 								<img src="img/img2.png" class="secimg">
 								<div class="caption">
@@ -72,6 +77,8 @@
 									</div>
 								</div>
 							</li>
+							</div>
+							<div class="sec0i">
 							<li>
 								<img src="img/img3.png" class="secimg">
 								<div class="caption">
@@ -82,6 +89,8 @@
 									</div>
 								</div>
 							</li>
+							</div>
+							<div class="sec0i">
 							<li>
 								<img src="img/img4.png" class="secimg">
 								<div class="caption">
@@ -92,6 +101,7 @@
 									</div>
 								</div>
 							</li>
+							</div>
 						</ul>	
 				</div>
 			</div>
@@ -104,6 +114,5 @@
 	<div id="footbox">
 		<footer><br>Nicolas Valdebenito</footer>
 	</div>
-	<?php include"php/config.php" ?>
 </body>
 </html>

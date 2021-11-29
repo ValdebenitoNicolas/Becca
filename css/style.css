@@ -459,6 +459,13 @@ h5{
 .sec0{
 	float: left;
 	width: 95%;
+	background: green;
+	margin-left: 2%;
+}
+.sec0i{
+	float: left;
+	width: 25%;
+	background: yellow;
 }
 .sec2{
 	float: left;
@@ -466,8 +473,6 @@ h5{
 }
 .secimg{
 	width: 400px;
-	float: center;
-	margin-left: 10%;
 }
 
 .caption-style-3{
@@ -482,9 +487,7 @@ h5{
 	padding: 0px;
 	position: relative;
 	overflow: hidden;
-	margin-left: 2%;
-	border-style: dotted;
-	border-color: #e892bf;
+
 }
 
 .caption-style-3 li:hover .caption{
@@ -574,6 +577,15 @@ h5{
 	padding:20px 30px;
 	margin: 0px;
 	font-size: 40px;
+}
+.cont p{
+	text-align: center;
+	color: white;
+	background-color: thistle;
+	font-family: "Lato";;
+	padding:20px 30px;
+	margin: 0px;
+	font-size: 30px;
 }
 .selectionc h4{
 	text-align: center;
