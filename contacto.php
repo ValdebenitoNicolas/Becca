@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (max-width:700px) and (min-width:481px)">
 	<link rel="stylesheet" type="text/css" href="css/style_pc.css" media="screen and (max-width:1200px) and (min-width:701px)"> -->
 <!-- 	<link rel="stylesheet" type="text/css" href="css/style_pchd.css" media="screen and (max-width:3600px) and (min-width:1201px)"> -->
-	<title>Tienda - Inicio</title>
+	<title>Tienda - Contacto</title>
 </head>
 <body>
 	<div class="navfloat">
@@ -36,83 +36,29 @@
 		</div>
 		<div class="nav">
 			<ul class="tabnav">
-				<li><a class="active" href="index.php">Inicio</a></li>
+				<li><a href="index.php">Inicio</a></li>
 				<li><a href="productos.php">Productos</a></li>
-				<li><a href="contacto.php">Contacto</a></li>
+				<li><a class="active" href="contacto.php">Contacto</a></li>
 				<li><a href="quienessomos.php">Quienes Somos</a></li>
 			</ul>
 		</div>
 	</div>
 	<hr class="bodyhr">
-	<div class="contenedor">
-		<div class="contenedor2">
+	<div id="contenedor">
 		<div class="bloque parallax imagen-1">
 			<div class="cont">
 				<h1>Sección 1</h1>
 				<h4>Mira lo nuevo de la temporada Navidad!</h4><hr>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore maiores consequatur ullam provident necessitatibus officia dolore reprehenderit sequi veritatis, dolores animi magni aperiam harum laboriosam totam, odio recusandae saepe!</p>
-				<div class="sec0">
-					<div class="container-a3">
-						<ul class="caption-style-3">
-						<div class="sec0i"> 
-							<li>
-								<img src="img/img1.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-										<div class="caption-text">
-											<h1>Amazing Caption</h1>
-											<p>Whatever It Is - Always Awesome</p>
-										</div>
-									</div>
-							</li>
-						</div>
-						<div class="sec0i">
-							<li>
-								<img src="img/img2.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-									<div class="caption-text">
-										<h1>Amazing Caption</h1>
-										<p>Whatever It Is - Always Awesome</p>
-									</div>
-								</div>
-							</li>
-							</div>
-							<div class="sec0i">
-							<li>
-								<img src="img/img3.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-									<div class="caption-text">
-										<h1>Amazing Caption</h1>
-										<p>Whatever It Is - Always Awesome</p>
-									</div>
-								</div>
-							</li>
-							</div>
-							<div class="sec0i">
-							<li>
-								<img src="img/img4.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-									<div class="caption-text">
-										<h1>Amazing Caption</h1>
-										<p>Whatever It Is - Always Awesome</p>
-									</div>
-								</div>
-							</li>
-							</div>
-						</ul>	
-				</div>
+				
 			</div>
 		</div>
 		<div class="bloque">
 			<div class="cont">
 				
 		</div>
-	
-		</div></div>
-	<div class="footbox">
+	</div>
+	<div id="footbox">
 		<footer><br>Nicolas Valdebenito</footer>
 	</div>
 </body>

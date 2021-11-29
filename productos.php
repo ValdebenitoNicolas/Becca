@@ -39,7 +39,7 @@
 			<ul class="tabnav">
 				<li><a href="index.php">Inicio</a></li>
 				<li><a class="active" href="productos.php">Productos</a></li>
-				<li><a href="ingresar.php">Contacto</a></li>
+				<li><a href="contacto.php">Contacto</a></li>
 				<li><a href="quienessomos.php">Quienes Somos</a></li>
 			</ul>
 		</div>
@@ -87,7 +87,7 @@
 		ppto();
 	</script>
 	
-	<div id="contenedor">
+	<div class="contenedor">
 		<div id="prod">
 			<div class="sec1">
 				<div class="wrap">
@@ -215,7 +215,7 @@
 				
 			</div>
 	</div>
-	<div id="footbox">
+	<div class="footbox">
 		<footer><br>Nicolas Valdebenito</footer>
 	</div>
 </body>
