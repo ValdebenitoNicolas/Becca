@@ -34,13 +34,13 @@
 		<div class="slogan">
 			<img src="img/banner.png" class="banner">
 		</div>
-		<div id="nav">
-		<ul class="tabs">
-			<li><a class="active" href="index.php">Inicio</a></li>
-			<li><a href="productos.php">Productos</a></li>
-			<li><a href="ingresar.php">Contacto</a></li>
-			<li><a href="quienessomos.php">Quienes Somos</a></li>
-		</ul>
+		<div class="nav">
+			<ul class="tabnav">
+				<li><a href="index.php">Inicio</a></li>
+				<li><a class="active" href="productos.php">Productos</a></li>
+				<li><a href="ingresar.php">Contacto</a></li>
+				<li><a href="quienessomos.php">Quienes Somos</a></li>
+			</ul>
 		</div>
 
 	</div>
