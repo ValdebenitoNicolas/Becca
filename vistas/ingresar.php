@@ -1,0 +1,1 @@
+<a href="vistas/registro.php"><img class="icon2" src="img/login.png" alt="Ingresar cuenta" title="Ingresar"></a>

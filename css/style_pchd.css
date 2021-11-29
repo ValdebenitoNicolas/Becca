@@ -1,0 +1,29 @@
+body{
+	background: #89FFE9;
+}
+/*h1{
+	background: #5C7D77;
+	padding: 20px;
+	color: #fff;
+	border-radius: 10px;
+	margin: 0 auto;
+	line-height: 100px;
+	text-align: center;
+}*/
+img{
+	width: 80%;
+	margin: 20px auto;
+	display: block;
+	border: 10px solid silver;
+}
+p{
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	width: 80%;
+	margin: 20px auto;
+	display: block;
+	background: #D8FFF9;
+	padding: 100px 10px;
+	border-radius: 10px;
+}

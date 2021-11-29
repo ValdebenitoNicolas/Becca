@@ -1,0 +1,21 @@
+body{
+	background: blue;
+	font-family: sans-serif;
+	padding: 30px;
+	color: silver;
+}
+h1{
+	background: #646262;
+	padding: 20px;
+	color: silver;
+}
+p{
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+img{
+	margin: 20px auto;
+	display: block;
+	width: 80%;
+}

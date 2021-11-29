@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #BCFFFF;
+	font-family: 'arial';
+}
+.wrap{
+	width: 3000px;
+	max-width: 90%;
+	margin: 30px auto;
+}
+ul.tabs{
+	width: 100%;
+	background: #4A4E4E;
+	list-style: none;
+	display: flex;
+}
+ul.tabs li{
+	width: 18%;
+}
+ul.tabs li a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px;
+}
+.active{
+	background: #03A2EC;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+.sections{
+	width: 100%;
+	background: white;
+}
+.sections article{
+	padding: 50px;
+}
+.sections article p{
+	text-align: justify;
+}
+footer{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	padding: 10px 10px;
+
+
+}
+.boxFooter{
+	width: 500px;
+	background: #4A4E4E;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tabl{
+	background: #F7C8FD;
+	padding: 20px 20px 5px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: none;
+	border-radius: 5px;
+}
+table.tabl td{
+	color: #3A3A3A;
+	text-align: center;
+padding: 0px 5px;
+}
+h1{
+	color: #3FBFBF;
+}
+@font-face {
+  font-family: "FontAwesome";
+
+}
+
+h1 {
+  font-size: 200%;
+}
+
+ .fas-fa-cat::before {
+  font-family: "FontAwesome", sans-serif;
+  content: "\f057";
+}
+.black{
+	color:black;
+}
+.bppp{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #4A4E4E;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+
+}
+table.tabl td.list1{
+	text-align: left;
+
+}
