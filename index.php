@@ -48,8 +48,8 @@
 	</div>
 	<hr class="bodyhr">
 	<div class="contenedor">
-		<div class="contenedor2">
-			<div class="bloque parallax imagen-1">
+		
+			<div class="contenedor2">
 				<div class="cont">
 					<h1>Hola</h1>
 					<h4>Mira lo nuevo de la temporada Navidad!</h4><hr>
@@ -67,19 +67,24 @@
 						</div>
 				</div>
 			</div>
-		</div>
+		
 		<div class="bloque">
 			<div class="cont">
 				
 		</div>
 	
-		</div>
+	</div>
 	<div class="footbox">
 		<footer><br>Nicolas Valdebenito</footer>
 		<div class="footbic">
-			<div class="footsm"></div>
-			<div class="footsm"></div>
-			<div class="footsm"></div>
+			<div class="footsm"><p><i class="fas fa-envelope-square"></i></p></div>
+			<div class="footsm"><p><a href="https://wa.link/3lxrri/"><i class="fas fa-phone-square-alt"></i></a></p></div>
+			<div class="footsm"><p><a href="https://www.instagram.com/beccas_pastry/"><i class="fab fa-instagram-square"></i></a></p></div>
+		</div>
+		<div class="footbi">
+			<div class="footbid"><p>Beccas.Pastry@gmail.com</p></div>
+			<div class="footbid"><a href="https://wa.link/3lxrri/"><p>+56 9 7493 7003</p></a></div>
+			<div class="footbid"><a href="https://www.instagram.com/beccas_pastry/"><p>@Beccas_Pastry <i class="fas fa-mouse-pointer"></i></p></a></div>
 		</div>
 	</div>
 </body>
