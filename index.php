@@ -6,9 +6,12 @@
 	<link rel="stylesheet" href="css/fontawesome.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900">
+	<link rel="stylesheet" href="css/flickity-docs.css?6" media="screen">
 	<script src="js/all.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/jquery.js"></script>
+	<script src="js/flickity-docs.min.js?2"></script>
+
 <!-- 	<link rel="stylesheet" type="text/css" href="css/style_movil.css" media="screen and (max-width:480px) and (min-width:1px)">
 	<link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (max-width:700px) and (min-width:481px)">
 	<link rel="stylesheet" type="text/css" href="css/style_pc.css" media="screen and (max-width:1200px) and (min-width:701px)"> -->
@@ -46,63 +49,22 @@
 	<hr class="bodyhr">
 	<div class="contenedor">
 		<div class="contenedor2">
-		<div class="bloque parallax imagen-1">
-			<div class="cont">
-				<h1>Sección 1</h1>
-				<h4>Mira lo nuevo de la temporada Navidad!</h4><hr>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore maiores consequatur ullam provident necessitatibus officia dolore reprehenderit sequi veritatis, dolores animi magni aperiam harum laboriosam totam, odio recusandae saepe!</p>
-				<div class="sec0">
-					<div class="container-a3">
-						<ul class="caption-style-3">
-						<div class="sec0i"> 
-							<li>
-								<img src="img/img1.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-										<div class="caption-text">
-											<h1>Amazing Caption</h1>
-											<p>Whatever It Is - Always Awesome</p>
-										</div>
-									</div>
-							</li>
+			<div class="bloque parallax imagen-1">
+				<div class="cont">
+					<h1>Hola</h1>
+					<h4>Mira lo nuevo de la temporada Navidad!</h4><hr>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore maiores consequatur ullam provident necessitatibus officia dolore reprehenderit sequi veritatis, dolores animi magni aperiam harum laboriosam totam, odio recusandae saepe!</p>
+						<div class="x">
+							<div class="carousel"
+								data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+								<img src="img/img1.png" alt="orange tree" />
+								<img src="img/img2.png" alt="submerged" />
+								<img src="img/img3.png" alt="look-out" />
+								<img src="img/img4.png" alt="One World Trade" />
+								<img src="img/img5.png" alt="drizzle" />
+								<img src="img/img6.png" alt="cat nose" />
+							</div>
 						</div>
-						<div class="sec0i">
-							<li>
-								<img src="img/img2.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-									<div class="caption-text">
-										<h1>Amazing Caption</h1>
-										<p>Whatever It Is - Always Awesome</p>
-									</div>
-								</div>
-							</li>
-							</div>
-							<div class="sec0i">
-							<li>
-								<img src="img/img3.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-									<div class="caption-text">
-										<h1>Amazing Caption</h1>
-										<p>Whatever It Is - Always Awesome</p>
-									</div>
-								</div>
-							</li>
-							</div>
-							<div class="sec0i">
-							<li>
-								<img src="img/img4.png" class="secimg">
-								<div class="caption">
-									<div class="blur"></div>
-									<div class="caption-text">
-										<h1>Amazing Caption</h1>
-										<p>Whatever It Is - Always Awesome</p>
-									</div>
-								</div>
-							</li>
-							</div>
-						</ul>	
 				</div>
 			</div>
 		</div>
@@ -111,9 +73,14 @@
 				
 		</div>
 	
-		</div></div>
+		</div>
 	<div class="footbox">
 		<footer><br>Nicolas Valdebenito</footer>
+		<div class="footbic">
+			<div class="footsm"></div>
+			<div class="footsm"></div>
+			<div class="footsm"></div>
+		</div>
 	</div>
 </body>
 </html>
